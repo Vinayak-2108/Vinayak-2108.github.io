@@ -97,14 +97,23 @@ article .article-img{
   color: #0f8034;
   border: 1px solid #000;
 }
+
+h2{
+  margin-left: 20px;
+}
 .my-text{
   padding: 50px;
   font-size: 18px;
   font-family: helvetica,sans-serif;
   max-height: 200px;
+  max-width: 80vw;
   opacity: 90%;
   overflow: scroll;
   overflow-x: hidden;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  text-align: start;
 }
 a{
   color:rgba(248, 12, 5, 0.91);
@@ -115,4 +124,8 @@ a:hover{
 article:active
 {
   opacity: .4;
+}
+
+footer{
+  margin-bottom: 10px;
 }
