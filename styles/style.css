@@ -9,6 +9,8 @@ body {
     margin: 0px;
 }
 body h1{
+  font-size: 32px;
+  font-family: helvetica, sans-serif;
   font-weight: 300;
   margin: 20px 30px;
 
@@ -40,14 +42,21 @@ body h1{
 h3 {
     color:#fff;
 }
-
-#guitars {
+/* 
+#cards {
   width: 1000px;
   margin:auto;
   margin-top: 20px;
+} */
+.fcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 article{
+  
   width: 301px;
   background: rgba(255,255,255,0.1);
   border-radius: 12px;
@@ -89,6 +98,9 @@ article .article-img{
   border: 1px solid #000;
 }
 .my-text{
+  padding: 50px;
+  font-size: 18px;
+  font-family: helvetica,sans-serif;
   max-height: 200px;
   opacity: 90%;
   overflow: scroll;
